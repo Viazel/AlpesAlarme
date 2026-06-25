@@ -116,7 +116,7 @@
   }
 
   forms.forEach((form) => {
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
       let valid = true;
 
@@ -160,8 +160,18 @@
 
       /* Simulation envoi — à connecter à un backend ou service email */
       if (success) {
-        success.classList.add('form__success--visible');
-        success.textContent = 'Merci ! Votre demande a bien été envoyée. Nous vous recontactons sous 24 h.';
+        const response = await fetch(form.action, {
+          method: "POST",
+          body: new FormData(form),
+          headers: {
+            Accept: "application/json"
+          }
+        });
+
+        if (response) {
+          success.classList.add('form__success--visible');
+          success.textContent = 'Merci ! Votre demande a bien été envoyée. Nous vous recontactons sous 24 h.';
+        }
       }
 
       form.reset();
