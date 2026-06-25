@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" role="img" aria-label="Carte des zones d'intervention Alpesalarme">
+  <defs>
+    <linearGradient id="mapBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3050"/>
+      <stop offset="100%" style="stop-color:#152238"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="350" rx="16" fill="url(#mapBg)"/>
+  <!-- Forme stylisée Sud-Est France -->
+  <path d="M120 80 L280 60 L320 120 L300 200 L250 280 L180 300 L100 250 L80 150 Z" fill="#2a4060" stroke="#0084d1" stroke-width="2" opacity="0.8"/>
+  <!-- Point 04 -->
+  <circle cx="200" cy="180" r="28" fill="#0084d1" opacity="0.3"/>
+  <circle cx="200" cy="180" r="8" fill="#0084d1"/>
+  <text x="200" y="220" text-anchor="middle" fill="#ffffff" font-family="system-ui,sans-serif" font-size="14" font-weight="700">04</text>
+  <text x="200" y="238" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="10">Alpes-de-Haute-Provence</text>
+  <!-- Point 05 -->
+  <circle cx="260" cy="120" r="28" fill="#ff6b2c" opacity="0.3"/>
+  <circle cx="260" cy="120" r="8" fill="#ff6b2c"/>
+  <text x="260" y="95" text-anchor="middle" fill="#ffffff" font-family="system-ui,sans-serif" font-size="14" font-weight="700">05</text>
+  <text x="260" y="78" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="10">Hautes-Alpes</text>
+  <!-- Point 13 -->
+  <circle cx="150" cy="250" r="28" fill="#10b981" opacity="0.3"/>
+  <circle cx="150" cy="250" r="8" fill="#10b981"/>
+  <text x="150" y="290" text-anchor="middle" fill="#ffffff" font-family="system-ui,sans-serif" font-size="14" font-weight="700">13</text>
+  <text x="150" y="308" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="10">Bouches-du-Rhône</text>
+  <!-- Légende -->
+  <text x="200" y="330" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="11">+ départements limitrophes</text>
+</svg>
