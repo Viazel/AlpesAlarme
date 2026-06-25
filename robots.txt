@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /mentions-legales.html
+Disallow: /politique-confidentialite.html
+
+Sitemap: https://www.alpesalarme.fr/sitemap.xml
