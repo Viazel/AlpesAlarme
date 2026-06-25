@@ -147,7 +147,7 @@ section {
   padding-block: clamp(4rem, 8vw, 6rem);
 }
 
-section:nth-child(even) {
+section:nth-child(even):not(.cta-banner) {
   background: var(--color-gray-50);
 }
 
@@ -1205,7 +1205,7 @@ section:nth-child(even) {
 }
 
 /* CTA bandeau */
-.cta-banner {
+section.cta-banner {
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   color: var(--color-white);
   text-align: center;
