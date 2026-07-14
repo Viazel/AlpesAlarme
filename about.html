@@ -24,8 +24,10 @@
   <a href="#main" class="skip-link">Aller au contenu principal</a>
   <header class="header" role="banner">
     <div class="container header__inner">
-      <a href="index.html" class="header__logo"><img src="assets/logo.svg" alt="Logo Alpesalarme" width="56"
-          height="44"></a>
+      <a href="index.html" class="header__logo" aria-label="Alpesalarme — Accueil">
+        <img src="assets/logo.svg" alt="" width="56" height="44">
+        <span class="header__logo-name">Alpesalarme</span>
+      </a>
       <nav class="header__nav" aria-label="Navigation principale">
         <ul class="header__nav-list">
           <li><a href="index.html" class="header__nav-link">Accueil</a></li>
@@ -150,7 +152,11 @@
   <footer class="footer" role="contentinfo">
     <div class="container">
       <div class="footer__grid">
-        <div class="footer__brand"><img src="assets/logo.svg" alt="Alpesalarme" width="56" height="44" loading="lazy">
+        <div class="footer__brand">
+          <div class="footer__brand-logo">
+            <img src="assets/logo.svg" alt="" width="56" height="44" loading="lazy">
+            <span class="footer__brand-name">Alpesalarme</span>
+          </div>
           <p>Installateur d'alarmes Ajax et Daitem depuis 2009.</p>
         </div>
         <div>
