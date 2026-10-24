@@ -728,6 +728,46 @@ section:nth-child(even):not(.cta-banner) {
 .card__link svg {
   width: 1rem;
   height: 1rem;
+}
+
+/* Galerie matériel */
+.ajax-gallery {
+  margin-top: 3rem;
+}
+
+.ajax-gallery__item {
+  overflow: hidden;
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.ajax-gallery__item img {
+  width: 100%;
+  aspect-ratio: 1200 / 630;
+  object-fit: cover;
+}
+
+.ajax-gallery__item figcaption {
+  display: grid;
+  gap: 0.375rem;
+  padding: 1.25rem;
+}
+
+.ajax-gallery__item figcaption strong {
+  color: var(--color-dark);
+}
+
+.ajax-gallery__item figcaption span {
+  color: var(--color-gray-600);
+  font-size: 0.9375rem;
+}
+
+.ajax-gallery__source {
+  margin-top: 1rem;
+  color: var(--color-gray-600);
+  font-size: 0.8125rem;
   transition: transform var(--transition);
 }
 
